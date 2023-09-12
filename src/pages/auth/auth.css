@@ -1,0 +1,39 @@
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.form {
+  max-width: 400px;
+  padding: 50px 40px;
+  margin: 100px auto;
+  background-color: grey;
+}
+
+.form label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: white;
+}
+
+.form button {
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.signup-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.signup-text span {
+  color: blue;
+  margin-left: 8px;
+  cursor: pointer;
+}
